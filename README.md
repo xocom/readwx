@@ -5,7 +5,9 @@
 
 
 一：使用说明<br>
-1:程序使用了selenium，所以必须先安装chorme浏览器对应插件。插件下载地址：https://sites.google.com/a/chromium.org/chromedriver/downloads<br>
+1:程序使用了selenium，所以必须先安装chrome浏览器对应插件。插件下载地址：https://sites.google.com/a/chromium.org/chromedriver/downloads<br>
+&nbsp;&nbsp;下载对应版本的EXE文件后，拷贝到chrome浏览器的目录，比如我的目录地址是：C:\Program Files (x86)\Google\Chrome\Application<br>
+&nbsp;&nbsp;V56-V57版本的chrome可以直接用plugin下的chromedriver<br>
 2:建立表结构之后，修改运行test.py，数据会抓取到对应表。<br>
 
 
