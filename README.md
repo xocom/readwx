@@ -33,3 +33,6 @@ CREATE TABLE `zwxsougoupost` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `ztitle` (`ztitle`)
 ) ENGINE=MyISAM AUTO_INCREMENT=207 DEFAULT CHARSET=gbk;
+
+三：如果帮助到了您，欢迎请老师喝杯水，谢谢。【功德随意】
+![image](https://github.com/xocom/readwx/blob/master/screenshots/pay.png)
