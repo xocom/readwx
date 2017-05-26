@@ -1,6 +1,6 @@
 # readwx
 爬取搜狗微信保存mysql<br>
-创建人：紫气东来<br>
+创建人：紫气东来 （微信、QQ:153560261）<br>
 因为工作中用到抓取微信与内外部网站进行同步，所以编写了此程序。<br>
 程序思路：用selenium模拟手机登陆，下载对应HTML，再用BeautifulSoup解析html，存放mysql<br>
 程序构建在py3.x基础上，可以优化为爬虫程序。<br>
