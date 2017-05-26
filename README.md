@@ -11,9 +11,11 @@
 &nbsp;&nbsp;下载对应版本的EXE文件后，拷贝到chrome浏览器的目录，比如：C:\Program Files (x86)\Google\Chrome\Application<br>
 &nbsp;&nbsp;V56-V57版本的chrome可以直接用plugin下的chromedriver<br>
 <br>
-2:建立表结构之后，修改运行test.py，数据会抓取到对应表。<br>
+2:建立表结构之后，修改运行<a href="https://github.com/xocom/readwx/blob/master/test.py" target="_blank">test.py</a>，数据会抓取到对应表。<br>
 <br>
-
+演示效果：<br>
+![image](https://github.com/xocom/readwx/blob/master/screenshots/show1.png)
+<br><br>
 二：数据库结构<br>
 -- ----------------------------<br>
 -- Table structure for zwxsougoupost<br>
