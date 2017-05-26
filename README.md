@@ -1,5 +1,6 @@
 # readwx
-爬取搜狗微信保存mysql<br>
+程序功能：爬取微信公众号
+&nbsp;&nbsp;&nbsp;&nbsp;利用搜狗微信找到微信文章，并保存mysql<br>
 创建人：紫气东来 （微信、QQ:153560261）<br>
 因为工作中用到抓取微信与内外部网站进行同步，所以编写了此程序。<br>
 程序思路：用selenium模拟手机登陆，下载对应HTML，再用BeautifulSoup解析html，存放mysql<br>
@@ -44,7 +45,7 @@ CREATE TABLE `zwxsougoupost` (<br>
   UNIQUE KEY `ztitle` (`ztitle`)<br>
 ) ENGINE=MyISAM AUTO_INCREMENT=207 DEFAULT CHARSET=gbk;<br>
 </p>
-三：如果帮助到了您，欢迎请老师喝杯水，谢谢。【功德随意】<br>
+三：如果帮助到了您，欢迎请老师喝杯水，谢谢。【微信扫码，功德随意】<br>
 
 ![image](https://github.com/xocom/readwx/blob/master/screenshots/pay.png)
 <br>
