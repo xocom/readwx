@@ -1,15 +1,18 @@
 # readwx
 爬取搜狗微信保存mysql<br>
 创建人：紫气东来<br>
-因为工作中用到抓取微信与内外部网站进行同步，所以编写了此程序。可以优化为爬虫程序。<br>
+因为工作中用到抓取微信与内外部网站进行同步，所以编写了此程序。<br>
+可以优化为爬虫程序。<br>
 
 
 一：使用说明<br>
-1:程序使用了selenium，所以必须先安装chrome浏览器对应插件。插件下载地址：https://sites.google.com/a/chromium.org/chromedriver/downloads<br>
-&nbsp;&nbsp;下载对应版本的EXE文件后，拷贝到chrome浏览器的目录，比如我的目录地址是：C:\Program Files (x86)\Google\Chrome\Application<br>
+1:程序使用了selenium，所以必须先安装chrome浏览器对应插件。<br>
+&nbsp;&nbsp;插件下载地址：https://sites.google.com/a/chromium.org/chromedriver/downloads<br>
+&nbsp;&nbsp;下载对应版本的EXE文件后，拷贝到chrome浏览器的目录，比如：C:\Program Files (x86)\Google\Chrome\Application<br>
 &nbsp;&nbsp;V56-V57版本的chrome可以直接用plugin下的chromedriver<br>
+<br>
 2:建立表结构之后，修改运行test.py，数据会抓取到对应表。<br>
-
+<br>
 
 二：数据库结构<br>
 -- ----------------------------<br>
@@ -41,3 +44,5 @@ CREATE TABLE `zwxsougoupost` (<br>
 三：如果帮助到了您，欢迎请老师喝杯水，谢谢。【功德随意】<br>
 
 ![image](https://github.com/xocom/readwx/blob/master/screenshots/pay.png)
+<br>
+任何问题可以咨询QQ:153560261 (紫气东来)<br>
