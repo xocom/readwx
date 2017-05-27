@@ -107,7 +107,7 @@ def read(str_fname,str_tname):
 
 ##插入
 def insert(sql):
-            conn = pymysql.connect("localhost", "root", "Aac9222f", "test", port=3306, charset='utf8')
+            conn = pymysql.connect("localhost", "root", "root", "test", port=3306, charset='utf8')
             cur = conn.cursor()
             print(sql)
             sta = cur.execute(sql)
